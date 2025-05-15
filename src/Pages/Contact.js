@@ -31,12 +31,12 @@ const Contact = () => {
                 value="Email: nikhil9504singh@gmail.com"
               />
              
-              <textarea
+              {/* <textarea
                 name="form_message"
                 class="form-control"
                 placeholder="Message"
                 rows="5"
-              ></textarea> */}
+              ></textarea>  */}
             </form>
           </div>
         </div>

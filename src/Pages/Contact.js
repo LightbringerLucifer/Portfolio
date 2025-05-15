@@ -30,18 +30,7 @@ const Contact = () => {
                 class="btn btn-primary btn-lg"
                 value="Email: nikhil9504singh@gmail.com"
               />
-              {/* <input
-                type="text"
-                name="form_name"
-                class="form-control"
-                placeholder="Phone: 8002749060"
-              />
-              <input
-                type="email"
-                name="form_email"
-                class="form-control"
-                placeholder="Email"
-              />
+             
               <textarea
                 name="form_message"
                 class="form-control"

@@ -1,12 +1,12 @@
 import React from "react";
-import react_logo from "../Styling/images/testimonials/1.png";
-import html_logo from "../Styling/images/testimonials/2.png";
-import css_logo from "../Styling/images/testimonials/3.png";
-import js_logo from "../Styling/images/testimonials/4.png";
-import jquery_logo from "../Styling/images/testimonials/5.png";
-import boot_logo from "../Styling/images/testimonials/6.png";
-import redux_logo from "../Styling/images/testimonials/7.png";
-import rb_logo from "../Styling/images/react_bootstrap.png";
+import react_logo from "../Styling/images/testimonials/react.png";
+import html_logo from "../Styling/images/testimonials/html.png";
+import css_logo from "../Styling/images/testimonials/css.png";
+import js_logo from "../Styling/images/testimonials/js.png";
+import jquery_logo from "../Styling/images/testimonials/jquery.png";
+import boot_logo from "../Styling/images/testimonials/bootstrap.png";
+import redux_logo from "../Styling/images/testimonials/redux.png";
+import rb_logo from "../Styling/images/testimonials/react_bootstrap.png";
 const Skills = () => {
   return (
     <div id="skills" class="testimonials-bg" style={{ marginTop: "560px" }}>

@@ -1,5 +1,5 @@
 // import react from "react";
-import "../Styling/style.css";
+import "../Styling/main.css";
 
 const Header = () => {
   return (

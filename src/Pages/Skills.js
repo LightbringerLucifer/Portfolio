@@ -138,14 +138,14 @@ const Skills = () => {
             {/* <!-- Controls --> */}
             <a
               class="left arrow"
-              href="#carousel-testimonials"
+              href="#skills"
               data-slide="prev"
             >
               <i class="fa fa-angle-left"></i>
             </a>
             <a
               class="right arrow"
-              href="#carousel-testimonials"
+              href="#skills"
               data-slide="next"
             >
               <i class="fa fa-angle-right"></i>

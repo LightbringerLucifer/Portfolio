@@ -158,4 +158,3 @@ const Skills = () => {
   );
 };
 export default Skills;
-is there anything wrong in this file as the carousel is not working

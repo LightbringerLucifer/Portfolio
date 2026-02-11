@@ -7,6 +7,8 @@ import jquery_logo from "../Styling/images/testimonials/jquery.png";
 import boot_logo from "../Styling/images/testimonials/bootstrap.png";
 import redux_logo from "../Styling/images/testimonials/redux.png";
 import rb_logo from "../Styling/images/testimonials/react_bootstrap.png";
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 const Skills = () => {
   return (
     <div id="skills" className="testimonials-bg" style={{ marginTop: "560px" }}>
@@ -17,7 +19,7 @@ const Skills = () => {
           <div
             id="carousel-testimonials"
             className="carousel slide"
-            data-ride="carousel"
+            data-bs-ride="carousel"
           >
             <div className="carousel-inner">
               {/*React  */}
@@ -139,14 +141,14 @@ const Skills = () => {
             <a
               className="left arrow"
               href="#carousel-testimonials"
-              data-slide="prev"
+              data-bs-slide="prev"
             >
               <i className="fa fa-angle-left"></i>
             </a>
             <a
               className="right arrow"
               href="#carousel-testimonials"
-              data-slide="next"
+              data-bs-slide="next"
             >
               <i className="fa fa-angle-right"></i>
             </a>

@@ -7,7 +7,6 @@ import jquery_logo from "../Styling/images/testimonials/jquery.png";
 import boot_logo from "../Styling/images/testimonials/bootstrap.png";
 import redux_logo from "../Styling/images/testimonials/redux.png";
 import rb_logo from "../Styling/images/testimonials/react_bootstrap.png";
-
 const Skills = () => {
   return (
     <div id="skills" className="testimonials-bg" style={{ marginTop: "560px" }}>
@@ -18,70 +17,145 @@ const Skills = () => {
           <div
             id="carousel-testimonials"
             className="carousel slide"
-            data-bs-ride="carousel"
+            data-ride="carousel"
           >
             <div className="carousel-inner">
-              {/* React */}
-              <div className="carousel-item active">
-                <img
-                  alt="react"
-                  src={react_logo}
-                  width="100"
-                  className="rounded-circle"
-                />
+              {/*React  */}
+              <div className="item active animated bounceInRight">
+                <span className="animated slideInLeft">
+                  <img
+                    alt="react"
+                    src={react_logo}
+                    width="100"
+                    className="img-circle"
+                  />
+                </span>
                 <p>React JS</p>
-                <span>A JavaScript library maintained by META (Facebook)</span>
+                <span>
+                  A Javascript library developed and maintained by
+                  META(Facebook)
+                </span>
               </div>
 
               {/* HTML */}
-              <div className="carousel-item">
-                <img
-                  alt="html"
-                  src={html_logo}
-                  width="100"
-                  className="rounded-circle"
-                />
+              <div className="item  animated bounceInRight">
+                <span className="animated slideInLeft">
+                  <img
+                    alt="hmtl"
+                    src={html_logo}
+                    width="100"
+                    className="img-circle"
+                  />
+                </span>
                 <p>HTML</p>
-                <span>Hyper Text Markup Language for structure</span>
+                <span>
+                  Hyper Text Markup Language to let browser understand the basic
+                  structure of your site
+                </span>
               </div>
 
               {/* CSS */}
-              <div className="carousel-item">
-                <img
-                  alt="css"
-                  src={css_logo}
-                  width="100"
-                  className="rounded-circle"
-                />
+              <div className="item  animated bounceInRight">
+                <span className="animated slideInLeft">
+                  <img
+                    alt="css"
+                    src={css_logo}
+                    width="100"
+                    className="img-circle"
+                  />
+                </span>
                 <p>CSS</p>
-                <span>Cascading Style Sheets for styling</span>
+                <span>Cascading Style Sheet for the makeover of your site</span>
               </div>
 
-              {/* Add other items similarly */}
+              {/* Javascript */}
+              <div className="item  animated bounceInRight">
+                <span className="animated slideInLeft">
+                  <img alt="JS" src={js_logo} width="100" className="img-circle" />
+                </span>
+                <p>Javascript</p>
+                <span>Used to add Interactivity to your website</span>
+              </div>
+
+              {/* JQuery */}
+              <div className="item  animated bounceInRight">
+                <span className="animated slideInLeft">
+                  <img
+                    alt="jquery"
+                    src={jquery_logo}
+                    width="100"
+                    className="img-circle"
+                  />
+                </span>
+                <p>JQuery</p>
+                <span>Used Short-hand javascript</span>
+              </div>
+              {/* Bootstrap */}
+              <div className="item  animated bounceInRight">
+                <span className="animated slideInLeft">
+                  <img
+                    alt="bootstrap"
+                    src={boot_logo}
+                    width="100"
+                    className="img-circle"
+                  />
+                </span>
+                <p>Bootstrap</p>
+                <span>
+                  Open-source framework for responsive and mobile-first websites
+                </span>
+              </div>
+
+              {/* Redux */}
+              <div className="item  animated bounceInRight">
+                <span className="animated slideInLeft">
+                  <img
+                    alt="redux"
+                    src={redux_logo}
+                    width="100"
+                    className="img-circle"
+                  />
+                </span>
+                <p>Redux</p>
+                <span>State-management library</span>
+              </div>
+              
+              {/* react-bootstrap */}
+              <div className="item  animated bounceInRight">
+                <span className="animated slideInLeft">
+                  <img
+                    alt="react-bootstrap"
+                    src={rb_logo}
+                    width="100"
+                    className="img-circle"
+                  />
+                </span>
+                <p>React-Bootstrap</p>
+                <span>Similar to Bootstrap but modified for React JS</span>
+              </div>
             </div>
 
-            {/* Controls */}
-            <button
-              className="carousel-control-prev"
-              type="button"
-              data-bs-target="#carousel-testimonials"
-              data-bs-slide="prev"
+            {/* <!-- Controls --> */}
+            <a
+              className="left arrow"
+              href="#carousel-testimonials"
+              data-slide="prev"
             >
-              <span className="carousel-control-prev-icon"></span>
-            </button>
-            <button
-              className="carousel-control-next"
-              type="button"
-              data-bs-target="#carousel-testimonials"
-              data-bs-slide="next"
+              <i className="fa fa-angle-left"></i>
+            </a>
+            <a
+              className="right arrow"
+              href="#carousel-testimonials"
+              data-slide="next"
             >
-              <span className="carousel-control-next-icon"></span>
-            </button>
+              <i className="fa fa-angle-right"></i>
+            </a>
+            {/* <!-- Controls --> */}
           </div>
         </div>
       </div>
     </div>
   );
 };
-
 export default Skills;
+is there anything wrong in this file as the carousel is not working

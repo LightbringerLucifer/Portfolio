@@ -123,7 +123,7 @@ const Skills = () => {
               </div>
               
               {/* react-bootstrap */}
-              <div className="item  animated bounceInRight">
+              <div className="item animated bounceInRight">
                 <span className="animated slideInLeft">
                   <img
                     alt="react-bootstrap"
